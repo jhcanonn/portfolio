@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 import Modal from './Modal';
 import cx from 'classnames';
 import { Document, Page, pdfjs } from 'react-pdf';
-import { useWindowSize } from 'usehooks-ts';
+import useHooksPackage from 'usehooks-ts';
+
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
@@ -24,6 +25,8 @@ type Props = {
   rounded?: boolean;
   index: number;
 };
+
+const { useWindowSize } = useHooksPackage;
 
 const CertificationCard = ({
   title,
