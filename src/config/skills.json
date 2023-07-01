@@ -95,5 +95,17 @@
     "title": "express",
     "source": "/images/badge-express.png",
     "size": "58"
+  },
+  {
+    "color": "green",
+    "title": "spring",
+    "source": "/images/badge-spring.png",
+    "size": "50"
+  },
+  {
+    "color": "red",
+    "title": "java",
+    "source": "/images/badge-java.png",
+    "size": "40"
   }
 ]

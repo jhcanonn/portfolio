@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
 type Props = {
@@ -9,8 +9,8 @@ type Props = {
 
 const Modal = ({ children, visible, onVisible }: Props) => {
   visible
-    ? document.body.classList.add('overflow-hidden')
-    : document.body.classList.remove('overflow-hidden');
+    ? document.documentElement.classList.add('overflow-y-hidden')
+    : document.documentElement.classList.remove('overflow-y-hidden');
 
   const handleBackgroundClose = (e: any) => {
     if (e.target.id === 'pdf-credential') onVisible(false);
@@ -24,10 +24,10 @@ const Modal = ({ children, visible, onVisible }: Props) => {
         className="fixed inset-0 z-30 bg-black/50 backdrop-blur-md flex justify-center items-center"
         onClick={handleBackgroundClose}
       >
-        <div className="bg-white rounded-3xl p-4 relative">
+        <div className="rounded-3xl relative w-full sm:w-auto bg-white min-h-fit min-w-fit p-2">
           {children}
           <button
-            className="absolute top-[-1.7rem] right-[-1.7rem] rounded-full bg-red-500 p-2 font-bold text-white self-end w-8 h-8 justify-center items-center flex"
+            className="absolute top-7 right-7 rounded-lg md:rounded-xl bg-red-500 w-7 h-7 px-2 py-1 font-bold text-white self-end flex justify-center items-center text-md"
             onClick={() => onVisible(false)}
           >
             <span className="block">X</span>
@@ -40,3 +40,5 @@ const Modal = ({ children, visible, onVisible }: Props) => {
 };
 
 export default Modal;
+
+// min-w-[30rem] min-h-[40%]

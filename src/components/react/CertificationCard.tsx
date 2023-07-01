@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Direction } from '@models/global';
 import { fadeIn } from '@utils/motion';
 import { motion } from 'framer-motion';
 import Modal from './Modal';
 import cx from 'classnames';
 import { Document, Page, pdfjs } from 'react-pdf';
+import { useWindowSize } from 'usehooks-ts';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
@@ -34,19 +35,37 @@ const CertificationCard = ({
   rounded,
   index,
 }: Props) => {
+  const screenSize = useWindowSize();
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       {pdfCredential && (
         <Modal visible={showModal} onVisible={setShowModal}>
-          <Document
-            file={pdfCredential}
-            className={'[&_canvas]:rounded-3xl'}
-            loading={<i className="gg-spinner"></i>}
+          <div
+            className={cx(
+              'rounded-3xl grow text-center min-w-[20rem] min-h-[20rem]',
+              {
+                'overflow-auto h-[90vh]': screenSize.height < 500,
+              }
+            )}
           >
-            <Page pageNumber={1} renderTextLayer={false} />
-          </Document>
+            <Document
+              file={pdfCredential}
+              className={cx(
+                '[&>div]:rounded-3xl [&_canvas]:rounded-3xl',
+                { '[&_canvas]:!w-full': screenSize.width < 640 },
+                { '[&_canvas]:!h-full': screenSize.height > 500 }
+              )}
+              loading={
+                <div className="w-full h-full flex justify-center items-center">
+                  <i className="gg-spinner"></i>
+                </div>
+              }
+            >
+              <Page pageNumber={1} renderTextLayer={false} />
+            </Document>
+          </div>
         </Modal>
       )}
 
