@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Direction } from '@models/global';
 import { fadeIn } from '@utils/motion';
 import { motion } from 'framer-motion';
 import Modal from './Modal';
 import cx from 'classnames';
 import { Document, Page, pdfjs } from 'react-pdf';
-import useHooksPackage from 'usehooks-ts';
+import { useWindowSize } from '@uidotdev/usehooks';
 
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -26,7 +26,10 @@ type Props = {
   index: number;
 };
 
-const { useWindowSize } = useHooksPackage;
+type ScreenSize = {
+  width: number;
+  height: number;
+};
 
 const CertificationCard = ({
   title,
@@ -38,7 +41,7 @@ const CertificationCard = ({
   rounded,
   index,
 }: Props) => {
-  const screenSize = useWindowSize();
+  const screenSize: ScreenSize = useWindowSize();
   const [showModal, setShowModal] = useState(false);
 
   return (

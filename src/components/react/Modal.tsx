@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 
 type Props = {
@@ -40,5 +40,3 @@ const Modal = ({ children, visible, onVisible }: Props) => {
 };
 
 export default Modal;
-
-// min-w-[30rem] min-h-[40%]
