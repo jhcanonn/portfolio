@@ -64,13 +64,11 @@ const BurguerButton = () => {
         className="nav-mobile absolute right-[-1rem] top-16 md:hidden block rounded-l-lg w-48 p-5"
         variants={{
           closedNav: {
-            display: 'none',
             opacity: 0,
             x: 100,
             transition: { duration: 0.5, type: 'tween' },
           },
           openedNav: {
-            display: 'block',
             opacity: 1,
             x: 0,
             transition: { duration: 0.5, type: 'tween' },

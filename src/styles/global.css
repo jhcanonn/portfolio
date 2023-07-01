@@ -62,9 +62,14 @@
   }
 }
 
+html {
+  @apply overflow-x-clip;
+}
+
 body {
   @apply font-sans
   flex flex-col
+  overflow-x-clip
   min-h-screen
   [&_a]:no-underline
   [&_.vertical-timeline]:!w-full;

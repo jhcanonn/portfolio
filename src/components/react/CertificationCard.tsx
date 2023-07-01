@@ -51,7 +51,7 @@ const CertificationCard = ({
       )}
 
       <motion.div
-        className="certification-card flex items-center rounded-2xl px-2"
+        className="certification-card flex items-center rounded-2xl px-2 w-full sm:w-auto"
         variants={fadeIn(Direction.UP, 'tween', 0.25, index * 0.3)}
         initial="hidden"
         whileInView="show"
@@ -65,7 +65,7 @@ const CertificationCard = ({
             style={{ height: heightImage ?? '' }}
           />
         </div>
-        <div className="flex flex-col w-full px-4 py-2 h-full">
+        <div className="flex flex-col w-full pl-4 py-2 h-full">
           <h3 className="font-bold text-lg">{title}</h3>
           <p className="font-medium opacity-80 text-sm">
             Issued: <i>{issued}</i>

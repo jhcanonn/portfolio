@@ -47,7 +47,7 @@ const ExperienceCard = ({ experience }: { experience: Expirience }) => {
 
 const Experience = () => {
   return (
-    <section className="flex flex-col gap-4 mt-12 [&>*:nth-child(2)]:mt-12">
+    <section className="flex flex-col gap-4 mt-8 lg:mt-12 [&>*:nth-child(2)]:mt-4 [&>*:nth-child(2)]:md:mt-12">
       <SectionTitle
         subtitle="what i have done so far"
         title="Work Experience."
