@@ -1,0 +1,12 @@
+---
+import RootLayout from '@layouts/RootLayout.astro';
+import ScrollReference from '@components/astro/ScrollReference.astro';
+import Projects from '@components/astro/Projects.astro';
+
+const description = "These are Jair's projects";
+---
+
+<RootLayout title="Projects" description={description}>
+  <ScrollReference referenceId="projects" />
+  <Projects />
+</RootLayout>

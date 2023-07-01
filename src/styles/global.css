@@ -1,0 +1,131 @@
+@tailwind components;
+
+@layer components {
+  .dark-nav-mobile {
+    @apply bg-gradient-to-r 
+    from-dark-black-100 
+    to-dark-black-300;
+  }
+
+  .light-nav-mobile {
+    @apply bg-gradient-to-r 
+    from-light-purple
+    to-blue-500;
+  }
+
+  .light-bg-pattern {
+    @apply fixed h-screen w-screen
+    bg-[#f9f9fd] opacity-40;
+    background-image: radial-gradient(#6101ee 0.5px, #f9f9fd 0.5px);
+    background-size: 10px 10px;
+  }
+
+  .dark-bg-pattern {
+    @apply fixed h-screen w-screen
+    bg-[#121212] opacity-40;
+    background-image: radial-gradient(#393e46 0.5px, #121212 0.5px);
+    background-size: 10px 10px;
+  }
+
+  .hover-button {
+    @apply bg-white opacity-50 py-1 px-3 text-black rounded-md;
+  }
+
+  .hover-theme {
+    @apply bg-white opacity-50 p-2 text-black rounded-full;
+  }
+
+  .light-footer-copyright {
+    @apply text-light-green-200;
+  }
+
+  .dark-footer-copyright {
+    @apply text-dark-purple;
+  }
+
+  .dark-certification-card {
+    @apply bg-gradient-to-l 
+    from-[#555555]
+    to-[#8c8c8c]
+    text-dark-gray-100
+    [&+div]:border-light-gray-200
+    [&_button]:bg-dark-green
+    [&_button]:text-dark-black-200;
+  }
+
+  .light-certification-card {
+    @apply bg-gradient-to-l 
+    from-gray-200 
+    to-gray-400
+    [&_button]:bg-light-green-200 
+    [&_button]:text-light-white;
+  }
+}
+
+body {
+  @apply font-sans
+  flex flex-col
+  min-h-screen
+  [&_a]:no-underline
+  [&_.vertical-timeline]:!w-full;
+}
+
+.custom-container {
+  @apply px-4 container mx-auto lg:max-w-5xl relative;
+}
+
+.certification-card-button {
+  @apply font-medium border-0 rounded-3xl py-1 mt-4 w-40 hover:scale-[1.15] hover:translate-y-[-0.2rem] self-center text-sm;
+}
+
+.dark {
+  @apply bg-dark-black-300
+  text-dark-gray-200
+  [&_header]:bg-dark-black-100
+  [&_.burguer>span]:bg-dark-gray-200
+  [&_.nav-mobile]:dark-nav-mobile
+  [&_.progress-bar]:bg-dark-purple
+  [&_.hero_.hero-bg]:bg-dark-purple
+  [&_.hero_.hero-from]:from-dark-purple
+  [&_.hero_.hero-text]:text-dark-purple
+  [&_.hero_.hero-img]:opacity-80
+  [&_.body-bg-pattern]:dark-bg-pattern
+  [&_.vertical-timeline::before]:bg-dark-gray-200
+  [&_.vertical-timeline-element-content]:bg-dark-purple-600
+  [&_.vertical-timeline-element-content]:shadow-dark-card-content
+  [&_.vertical-timeline-element-content-arrow]:border-r-dark-purple-600
+  [&_.vertical-timeline-element-content]:text-white
+  [&_.vertical-timeline-element-icon]:shadow-dark-line
+  [&_.vertical-timeline-element-icon]:bg-dark-gray-200
+  [&_.vertical-timeline-element-icon]:text-white
+  [&_.vertical-timeline-element-date]:text-dark-gray-200
+  [&_.ribbon]:bg-[#555]
+  [&_.footer-copyright]:dark-footer-copyright
+  [&_.certification-card]:dark-certification-card;
+}
+
+.light {
+  @apply bg-light-white 
+  text-light-black
+  [&_header]:bg-light-purple
+  [&_header]:text-light-white
+  [&_.burguer>span]:bg-light-white
+  [&_.nav-mobile]:light-nav-mobile
+  [&_.progress-bar]:bg-light-green-200
+  [&_.hero_.hero-bg]:bg-light-green-200
+  [&_.hero_.hero-from]:from-light-green-200
+  [&_.hero_.hero-text]:text-light-green-200
+  [&_.body-bg-pattern]:light-bg-pattern
+  [&_.vertical-timeline::before]:bg-light-black
+  [&_.vertical-timeline-element-content]:bg-light-brown-100
+  [&_.vertical-timeline-element-content]:shadow-light-card-content
+  [&_.vertical-timeline-element-content-arrow]:border-r-light-brown-100
+  [&_.vertical-timeline-element-content]:text-light-black
+  [&_.vertical-timeline-element-icon]:shadow-light-line
+  [&_.vertical-timeline-element-icon]:bg-light-black
+  [&_.vertical-timeline-element-icon]:text-light-green-200
+  [&_.vertical-timeline-element-date]:text-black
+  [&_.ribbon]:bg-light-black
+  [&_.footer-copyright]:light-footer-copyright
+  [&_.certification-card]:light-certification-card;
+}

@@ -1,0 +1,11 @@
+---
+type Props = {
+  referenceId: string;
+};
+
+const { referenceId } = Astro.props;
+---
+
+<div class="relative">
+  <span id={referenceId} class="block absolute bottom-16"></span>
+</div>

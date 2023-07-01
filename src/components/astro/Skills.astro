@@ -1,0 +1,23 @@
+---
+import { SectionTitle, Badge } from '@components/react';
+import skills from '@config/skills.json';
+---
+
+<section class="flex flex-col gap-4 mt-12">
+  <SectionTitle client:visible subtitle="what i can do" title="Skills." />
+  <div class="flex justify-center flex-wrap">
+    {
+      skills.map((skill, index) => (
+        <Badge
+          client:visible
+          color={skill.color}
+          title={skill.title}
+          source={skill.source}
+          size={skill.size}
+          rounded={skill.rounded}
+          index={index}
+        />
+      ))
+    }
+  </div>
+</section>

@@ -1,0 +1,33 @@
+---
+import '@styles/global.css';
+import Header from '@components/astro/Header.astro';
+import Footer from '@components/astro/Footer.astro';
+
+type Props = {
+  title: string;
+  description?: string;
+};
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <title>{`Jair Cañon | ${title}`}</title>
+    <link href="https://css.gg/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="body-bg-pattern"></div>
+    <div id="modal-portal"></div>
+    <Header />
+    <main class="grow custom-container">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

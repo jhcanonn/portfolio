@@ -1,0 +1,36 @@
+---
+import { HeroImage, HeroName } from '@components/react';
+---
+
+<section class="hero h-[55rem] relative">
+  <div class="flex flex-col gap-4 justify-between">
+    <div class="h-[3rem] md:h-[5rem]"></div>
+    <div class="flex">
+      <div class="flex flex-col items-center w-[3rem]">
+        <div class="w-5 h-5 rounded-full hero-bg"></div>
+        <div class="w-1 h-60 bg-gradient-to-b hero-from to-transparent"></div>
+      </div>
+      <div class="flex flex-col grow mt-8">
+        <HeroName client:load />
+        <p class="text-4xl mt-4 mb-2 font-semibold">Electronic Engeneer,</p>
+        <p class="text-2xl font-medium">
+          I develope user interfaces <br /> and web applications
+        </p>
+      </div>
+      <div
+        class="absolute bottom-2 md:bottom-0 md:top-[17rem] lg:top-32 max-w-[23rem] lg:max-w-[28rem] right-0"
+      >
+        <HeroImage client:load />
+      </div>
+      <div
+        class="absolute bottom-0 lg:bottom-[0.9rem] right-[3rem] md:right-[2.7rem] lg:right-[4.1rem] w-[80%]"
+      >
+        <div class="flex items-center">
+          <div class="w-full h-1 bg-gradient-to-l hero-from to-transparent">
+          </div>
+          <div class="w-5 h-5 rounded-full hero-bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

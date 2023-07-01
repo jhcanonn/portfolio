@@ -1,0 +1,22 @@
+[
+  {
+    "name": "About",
+    "tag": "/#about"
+  },
+  {
+    "name": "Experience",
+    "tag": "/#experience"
+  },
+  {
+    "name": "Skills",
+    "tag": "/#skills"
+  },
+  {
+    "name": "Certifications",
+    "tag": "/#certifications"
+  },
+  {
+    "name": "Projects",
+    "tag": "projects"
+  }
+]

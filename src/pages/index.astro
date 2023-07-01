@@ -1,15 +1,25 @@
 ---
+import RootLayout from '@layouts/RootLayout.astro';
+import About from '@components/astro/About.astro';
+import Hero from '@components/astro/Hero.astro';
+import Skills from '@components/astro/Skills.astro';
+import ScrollReference from '@components/astro/ScrollReference.astro';
+import Certifications from '@components/astro/Certifications.astro';
+import { ProgressBar, Experience } from '@components/react';
+
+const description = "This is Jair's Portfolio";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<RootLayout title="Portfolio" description={description}>
+  <ProgressBar client:load />
+  <ScrollReference referenceId="hero" />
+  <Hero />
+  <ScrollReference referenceId="about" />
+  <About />
+  <ScrollReference referenceId="experience" />
+  <Experience client:visible />
+  <ScrollReference referenceId="skills" />
+  <Skills />
+  <ScrollReference referenceId="certifications" />
+  <Certifications />
+</RootLayout>

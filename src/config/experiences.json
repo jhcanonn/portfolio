@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Senior Full Stack Developer",
+    "company": "Mentu",
+    "logo": "/images/logo-mentu.png",
+    "date": "Jul 2022 - Present",
+    "descriptions": [
+      {
+        "subtitle": "ReactJS (Frontend):",
+        "desc": "Stateful and Stateless components, Presentational and Container components, Hooks implementation (useState,  useEffect,  useRef,  useReducer,  useMemo,  useCallback), Custom hooks implementation, Global state (Redux,  useContext), Component Lifecycle (Mounting,  Updating,  Unmounting), Libraries: React Router,  React DOM,  Axios,  Fetch, Patterns: HoC (Higher Order Components) and Render Props, Atomic Design (atoms > molecules > organisms > templates > pages), Axios Interceptors to intercept requests or responses, Tailwind CSS, Styled components, NextJS framework."
+      },
+      {
+        "subtitle": "NodeJS (Backend):",
+        "desc": "Microservices implementation oriented to AWS Lambda functions (Serverless), Swagger (Serverless openapi documentation), Web Services integration,  REST and GraphQL, Database management,  MongoDB and Postgres, TypeORM to Postgres models (ORM), Mongoose to MongoDB models (ODM), Unit and integration testing, Jest."
+      },
+      {
+        "subtitle": "General:",
+        "desc": "TypeScript, Git versioning, Git actions, Development methodology, Scrum."
+      }
+    ]
+  },
+  {
+    "title": "Senior Backend Developer",
+    "company": "Valid",
+    "logo": "/images/logo-valid.jpeg",
+    "date": "May 2021 - Jun 2022",
+    "descriptions": [
+      {
+        "subtitle": "Java Spring:",
+        "desc": "Microservices implementation, Spring Boot,Web Services integration, REST and SOAP,Database management, MySQL and Postgres,Unit testing, JUnit,Stress test, JMeter,Agil methodology, Scrum,Jira management, task tracking,SOLID principles,Design Patterns (Singleton, Builder, Observer, Facade, Proxy, Template),Secure Development Guide, symmetric (AES) and asymmetric (RSA) encryption,OWASP Top 10, vulnerabilities,AWS artifact deployment on ECS, EC2, S3,AWS services: CloudWatch, Lambda, ECR,Docker deployments,Linux server management,AOP programming,Code quality, SonarQube."
+      }
+    ]
+  },
+  {
+    "title": "Senior Full Stack Developer",
+    "company": "Intergrupo",
+    "logo": "/images/logo-intergrupo.jpeg",
+    "date": "Aug 2019 - May 2021",
+    "descriptions": [
+      {
+        "subtitle": "Angular (Frontend):",
+        "desc": "Angular 10 management, Structure definition for projects, Route handler, Web Services integration,  REST, Universal interceptor for HTTP requests, Webpack and TSLint integration, Custom design with SASS preprocessor, Browser’s Local and session storage management, Bootstrap,  Material design and PrimeNG UI utilization, BEM CSS methodology, CSS Animations, Modules managements for Lazy loading, Event handling between components and services, Development methodology, Scrum."
+      },
+      {
+        "subtitle": "React (Frontend):",
+        "desc": "Stateful and Stateless components, Presentational and Container components, Hooks implementation (useState, useEffect, useRef, useReducer, useMemo, useCallback), Custom hooks implementation, Global state (Redux, useContext), Component Lifecycle (Mounting, Updating, Unmounting), Libraries: React Router, React DOM, Axios, Fetch, Patterns: HoC (Higher Order Components) and Render Props."
+      },
+      {
+        "subtitle": "Java (Backend):",
+        "desc": "Microservices implementation, Spring Boot, Java EE, Web Services integration, REST, Queue management, Database management, Postgres and IBM DB2, Git versioning, Development methodology, Scrum."
+      }
+    ]
+  },
+  {
+    "title": "Semi-senior Full Stack Developer",
+    "company": "Sonría Clínicas Odontológicas",
+    "logo": "/images/logo-sonria.jpeg",
+    "date": "Apr 2019 - Aug 2019",
+    "descriptions": [
+      {
+        "subtitle": "JavaScript, HTML, CSS (Frontend):",
+        "desc": "REST integrations, Pages creation."
+      },
+      {
+        "subtitle": "PHP (Backend):",
+        "desc": "Web Services integrations: SOAP and REST, MySQL Database management."
+      },
+      {
+        "subtitle": "Java (Backend):",
+        "desc": "Postgres database management, Jasper report."
+      }
+    ]
+  },
+  {
+    "title": "Semi-senior Full Stack Developer",
+    "company": "Zurich De Occidente S.A",
+    "logo": "/images/logo-zurich.jpeg",
+    "date": "Dec 2017 - Mar 2019",
+    "descriptions": [
+      {
+        "subtitle": "Angular (Frontend):",
+        "desc": "Angular 7, 8 management, Web Services integration, REST, Custom design with SASS preprocessor, Route handler, Pages creation."
+      },
+      {
+        "subtitle": "PHP (Backend):",
+        "desc": "Web Services integrations, SOAP and REST, MySQL Database management."
+      },
+      {
+        "subtitle": "Java (Backend):",
+        "desc": "Java EE, MySQL and Postgres database management, Jasper report."
+      }
+    ]
+  },
+  {
+    "title": "Junior Full Stack Developer",
+    "company": "DataCRM",
+    "logo": "/images/logo-datacrm.jpeg",
+    "date": "Mar 2015 - Nov 2017",
+    "descriptions": [
+      {
+        "subtitle": "JavaScript, HTML, CSS (Frontend):",
+        "desc": "REST integrations (PayU, MailChimp, Alegra), Pages creation, CSS Animations, Responsive design of Web Pages and Landing Pages, JQuery and Bootstrap utilization."
+      },
+      {
+        "subtitle": "PHP (Backend):",
+        "desc": "Web Services integrations, SOAP and REST, MySQL Database management, Linux server management, Git versioning, Scrum agile methodology, CRM based on Vtiger."
+      }
+    ]
+  },
+  {
+    "title": "Electronic Engineer",
+    "company": "Universidad del Quindío",
+    "logo": "/images/graduate-cap.jpg",
+    "date": "Mar 2008 - Sep 2014",
+    "descriptions": [
+      {
+        "subtitle": "Through the professional career:",
+        "desc": "Linux, C++, Java, RaspberryPi."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Electronic Engineer",
+    "issued": "Sep 2014",
+    "sourceImage": "/images/universidad-del-quindio.png",
+    "pdfCredential": "/assets/electronic-engineer-diploma.pdf",
+    "heightImage": "4.5rem"
+  },
+  {
+    "title": "Scrum Foundation Professional",
+    "issued": "Aug 2020",
+    "sourceImage": "/images/logo-scrum-foundation.jpeg",
+    "sourceCredential": "https://www.youracclaim.com/badges/3c3da9f0-1c82-40e7-be60-0cfe91ff1aed?source=linked_in_profile",
+    "rounded": true
+  },
+  {
+    "title": "Scrum Master",
+    "issued": "Oct 2020",
+    "sourceImage": "/images/logo-scrum-master.png",
+    "sourceCredential": "https://www.scrum-institute.org/badges/78265110253356"
+  },
+  {
+    "title": "AWS Cloud Practitioner",
+    "issued": "Dec 2020",
+    "sourceImage": "/images/logo-aws-practitioner.jpeg",
+    "sourceCredential": "https://www.youracclaim.com/badges/2dbf9526-db02-477a-9204-5120dc15b704?source=linked_in_profile",
+    "rounded": true
+  }
+]

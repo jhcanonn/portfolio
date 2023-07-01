@@ -1,0 +1,99 @@
+[
+  {
+    "color": "orange-dark",
+    "title": "html",
+    "source": "/images/badge-html.png",
+    "size": "48"
+  },
+  {
+    "color": "blue",
+    "title": "css",
+    "source": "/images/badge-css.png",
+    "size": "48"
+  },
+  {
+    "color": "yellow",
+    "title": "javascript",
+    "source": "/images/badge-javascript.png",
+    "size": "50",
+    "rounded": true
+  },
+  {
+    "color": "blue-dark",
+    "title": "typescript",
+    "source": "/images/badge-typescript.png",
+    "size": "50"
+  },
+  {
+    "color": "blue",
+    "title": "react",
+    "source": "/images/badge-react.png",
+    "size": "58"
+  },
+  {
+    "color": "purple",
+    "title": "redux",
+    "source": "/images/badge-redux.png",
+    "size": "48"
+  },
+  {
+    "color": "orange-black",
+    "title": "astro",
+    "source": "/images/badge-astro.png",
+    "size": "58"
+  },
+  {
+    "color": "green-blue",
+    "title": "tailwind",
+    "source": "/images/badge-tailwind.png",
+    "size": "58"
+  },
+  {
+    "color": "orange",
+    "title": "aws",
+    "source": "/images/badge-aws.png",
+    "size": "55"
+  },
+  {
+    "color": "pink",
+    "title": "graphql",
+    "source": "/images/badge-graphql.png",
+    "size": "55"
+  },
+  {
+    "color": "green",
+    "title": "mongo",
+    "source": "/images/badge-mongo.png",
+    "size": "80"
+  },
+  {
+    "color": "black",
+    "title": "nextjs",
+    "source": "/images/badge-nextjs.png",
+    "size": "55"
+  },
+  {
+    "color": "green-dark",
+    "title": "nodejs",
+    "source": "/images/badge-nodejs.png",
+    "size": "58"
+  },
+  {
+    "color": "blue-500",
+    "title": "postgres",
+    "source": "/images/badge-postgres.png",
+    "size": "50"
+  },
+  {
+    "color": "orange-dark",
+    "title": "git",
+    "source": "/images/badge-git.png",
+    "size": "58"
+  },
+  {
+    "color": "silver",
+    "title": "express",
+    "source": "/images/badge-express.png",
+    "size": "58"
+  }
+]

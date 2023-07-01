@@ -1,0 +1,36 @@
+---
+import { BurguerButton, ThemeToggle } from '@components/react';
+import sections from '@config/sections.json';
+---
+
+<header class="sticky top-0 z-20 py-4">
+  <div class="custom-container flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <a href="/#hero">
+        <img src={`/images/logo.png`} width="40" height="40" alt="Logo" />
+      </a>
+      <h2 class="text-xl font-semibold grow">
+        Jair | <i class="font-normal">Fullstack Developer</i>
+      </h2>
+    </div>
+    <div class="flex items-center justify-end">
+      <nav>
+        <ul class="items-center md:flex hidden">
+          {
+            sections.map((section) => (
+              <li>
+                <button class="hover:hover-button px-3">
+                  <a href={section.tag}>
+                    <span class="text-lg font-semibold">{section.name}</span>
+                  </a>
+                </button>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <ThemeToggle client:only="react" />
+      <BurguerButton client:media="(max-width: 768px)" />
+    </div>
+  </div>
+</header>
