@@ -1,63 +1,63 @@
 [
   {
-    "title": "Car Rent",
-    "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    "image": "https://3dfolio-ivory.vercel.app/assets/carrent-aba013d1.png",
+    "title": "Jair's porfolio",
+    "description": "My portfolio shows the culmination of my work and dedication, various skills, licenses and certifications. It also covers some of the projects that highlight my skills, I'm still working on adding more.",
+    "image": "/images/project-portfolio.png",
     "git": "https://github.com/jhcanonn/portfolio",
-    "web": "https://github.com/jhcanonn/portfolio",
+    "web": "https://jaircanon.dev",
     "hastags": [
       {
         "name": "astro",
-        "color": "darkblue"
+        "color": "#FF8C00"
       },
       {
         "name": "react",
-        "color": "orange"
+        "color": "#008B8B"
+      },
+      {
+        "name": "githubactions",
+        "color": "#DEB887"
       },
       {
         "name": "tailwind",
-        "color": "brown"
+        "color": "#1E90FF"
+      },
+      {
+        "name": "typescript",
+        "color": "#DA70D6"
       }
     ]
   },
   {
-    "title": "Job IT",
-    "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    "image": "https://3dfolio-ivory.vercel.app/assets/jobit-ecb9d39c.png",
-    "git": "https://github.com/jhcanonn/portfolio",
-    "hastags": [
-      {
-        "name": "react",
-        "color": "blue"
-      },
-      {
-        "name": "restapi",
-        "color": "green"
-      },
-      {
-        "name": "scss",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "title": "Trip Guide",
-    "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    "image": "https://3dfolio-ivory.vercel.app/assets/jobit-ecb9d39c.png",
-    "git": "https://github.com/jhcanonn/portfolio",
-    "web": "https://github.com/jhcanonn/portfolio",
+    "title": "DHI platform",
+    "description": "Demo web application that allows end users to schedule hair treatment appointments, manage their medical records, and more. Currently developing.",
+    "image": "/images/project-dhi.png",
+    "git": "https://github.com/tesuforo/dhi_app",
+    "web": "https://dhi-app.vercel.app/",
     "hastags": [
       {
         "name": "nextjs",
-        "color": "coral"
+        "color": "#CD853F"
       },
       {
-        "name": "superbase",
-        "color": "green"
+        "name": "react",
+        "color": "#DDA0DD"
       },
       {
-        "name": "css",
-        "color": "darkviolet"
+        "name": "graphql",
+        "color": "#EE82EE"
+      },
+      {
+        "name": "scss",
+        "color": "#4682B4"
+      },
+      {
+        "name": "typescript",
+        "color": "darkorange"
+      },
+      {
+        "name": "primereact",
+        "color": "#DAA520"
       }
     ]
   }
