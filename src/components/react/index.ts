@@ -8,3 +8,5 @@ export { default as HeroImage } from './HeroImage';
 export { default as HeroName } from './HeroName';
 export { default as CertificationCard } from './CertificationCard';
 export { default as Modal } from './Modal';
+export { default as ProjectCard } from './ProjectCard';
+export { default as Hashtag } from './Hashtag';

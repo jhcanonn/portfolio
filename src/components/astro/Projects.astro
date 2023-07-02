@@ -1,1 +1,30 @@
-<h1>Projects</h1>
+---
+import { SectionTitle, ProjectCard } from '@components/react';
+import projects from '@config/projects.json';
+---
+
+<section class="flex flex-col gap-4 mt-8 md:mt-12">
+  <SectionTitle client:load subtitle="some of my work" title="Projects." />
+  <p class="my-2 md:my-8 md:mr-40 lg:mr-52">
+    Following projects showcases my skills and experience through real-world
+    examples of my work. Each project is briefly described with links to code
+    repositories and live demos in it. It reflects my ability to solve complex
+    problems, work with different technologies, and manage projects effectively.
+  </p>
+  <div class="flex gap-4 flex-wrap justify-center">
+    {
+      projects.map((project, index) => (
+        <ProjectCard
+          client:load
+          title={project.title}
+          description={project.description}
+          sourceImg={project.image}
+          gitUrl={project.git}
+          webUrl={project.web}
+          index={index}
+          hastags={project.hastags}
+        />
+      ))
+    }
+  </div>
+</section>

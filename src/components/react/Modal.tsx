@@ -27,7 +27,7 @@ const Modal = ({ children, visible, onVisible }: Props) => {
         <div className="rounded-3xl relative w-full sm:w-auto bg-white min-h-fit min-w-fit p-2">
           {children}
           <button
-            className="absolute top-7 right-7 rounded-lg md:rounded-xl bg-red-500 w-7 h-7 px-2 py-1 font-bold text-white self-end flex justify-center items-center text-md"
+            className="absolute top-5 right-5 rounded-lg md:rounded-xl bg-red-500 w-7 h-7 px-2 py-1 font-bold text-white self-end flex justify-center items-center text-md"
             onClick={() => onVisible(false)}
           >
             <span className="block">X</span>

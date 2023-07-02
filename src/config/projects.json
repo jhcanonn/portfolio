@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Car Rent",
+    "description": "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "image": "https://3dfolio-ivory.vercel.app/assets/carrent-aba013d1.png",
+    "git": "https://github.com/jhcanonn/portfolio",
+    "web": "https://github.com/jhcanonn/portfolio",
+    "hastags": [
+      {
+        "name": "astro",
+        "color": "darkblue"
+      },
+      {
+        "name": "react",
+        "color": "orange"
+      },
+      {
+        "name": "tailwind",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "title": "Job IT",
+    "description": "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "image": "https://3dfolio-ivory.vercel.app/assets/jobit-ecb9d39c.png",
+    "git": "https://github.com/jhcanonn/portfolio",
+    "hastags": [
+      {
+        "name": "react",
+        "color": "blue"
+      },
+      {
+        "name": "restapi",
+        "color": "green"
+      },
+      {
+        "name": "scss",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "title": "Trip Guide",
+    "description": "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "image": "https://3dfolio-ivory.vercel.app/assets/jobit-ecb9d39c.png",
+    "git": "https://github.com/jhcanonn/portfolio",
+    "web": "https://github.com/jhcanonn/portfolio",
+    "hastags": [
+      {
+        "name": "nextjs",
+        "color": "coral"
+      },
+      {
+        "name": "superbase",
+        "color": "green"
+      },
+      {
+        "name": "css",
+        "color": "darkviolet"
+      }
+    ]
+  }
+]

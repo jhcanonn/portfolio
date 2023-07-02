@@ -106,7 +106,9 @@ body {
   [&_.vertical-timeline-element-date]:text-dark-gray-200
   [&_.ribbon]:bg-[#555]
   [&_.footer-copyright]:dark-footer-copyright
-  [&_.certification-card]:dark-certification-card;
+  [&_.certification-card]:dark-certification-card
+  [&_.project-card]:bg-dark-purple-600
+  [&_.project-card]:text-white;
 }
 
 .light {
@@ -132,5 +134,6 @@ body {
   [&_.vertical-timeline-element-date]:text-black
   [&_.ribbon]:bg-light-black
   [&_.footer-copyright]:light-footer-copyright
-  [&_.certification-card]:light-certification-card;
+  [&_.certification-card]:light-certification-card
+  [&_.project-card]:bg-light-brown-100;
 }
