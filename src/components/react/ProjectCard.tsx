@@ -36,9 +36,9 @@ const ProjectCard = ({
       <img
         src={sourceImg}
         alt={title}
-        className="rounded-t-3xl min-h-[16.5rem] bg-black/50 text-white"
+        className="rounded-t-3xl min-h-[11.2rem] bg-black/50 text-white"
       />
-      <div className="card-banner absolute top-0 w-full bg-black/70 rounded-t-3xl min-h-[16.5rem] invisible scale-0 transition-transform duration-500">
+      <div className="card-banner absolute top-0 w-full bg-black/70 rounded-t-3xl min-h-[11.2rem] invisible scale-0 transition-transform duration-500">
         {gitUrl && (
           <a href={gitUrl} target="_blank" className="absolute top-4 right-4">
             <img

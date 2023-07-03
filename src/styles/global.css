@@ -60,6 +60,14 @@
     [&_button]:bg-light-green-200 
     [&_button]:text-light-white;
   }
+
+  .dark-download-cv {
+    @apply text-dark-gray-100 bg-dark-purple;
+  }
+
+  .light-download-cv {
+    @apply text-light-white bg-light-green-200;
+  }
 }
 
 html {
@@ -108,7 +116,8 @@ body {
   [&_.footer-copyright]:dark-footer-copyright
   [&_.certification-card]:dark-certification-card
   [&_.project-card]:bg-dark-purple-600
-  [&_.project-card]:text-white;
+  [&_.project-card]:text-white
+  [&_.download-cv]:dark-download-cv;
 }
 
 .light {
@@ -135,5 +144,6 @@ body {
   [&_.ribbon]:bg-light-black
   [&_.footer-copyright]:light-footer-copyright
   [&_.certification-card]:light-certification-card
-  [&_.project-card]:bg-light-brown-100;
+  [&_.project-card]:bg-light-brown-100
+  [&_.download-cv]:light-download-cv;
 }
