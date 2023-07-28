@@ -1,9 +1,25 @@
 [
   {
+    "title": "Senior Frontend Developer",
+    "company": "Freelance",
+    "logo": "/images/logo.png",
+    "date": "Jun 2023 - Present",
+    "descriptions": [
+      {
+        "subtitle": "Frontend:",
+        "desc": "Starting project from scratch on Next.js 13 + React.js + TypeScript, Atomic Design methodology for components, Sessions management (Login/Logut) with Cookies, Form validation with React Hook Form, CI/CD with Github actions."
+      },
+      {
+        "subtitle": "General:",
+        "desc": "TypeScript, Git versioning, Git actions."
+      }
+    ]
+  },
+  {
     "title": "Senior Full Stack Developer",
     "company": "Mentu",
     "logo": "/images/logo-mentu.png",
-    "date": "Jul 2022 - Present",
+    "date": "Jul 2022 - May 2023",
     "descriptions": [
       {
         "subtitle": "ReactJS (Frontend):",
