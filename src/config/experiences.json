@@ -7,7 +7,7 @@
     "descriptions": [
       {
         "subtitle": "Frontend:",
-        "desc": "Starting project from scratch on Next.js 13 + React.js + TypeScript, Atomic Design methodology for components, Sessions management (Login/Logut) with Cookies, Form validation with React Hook Form, CI/CD with Github actions."
+        "desc": "Starting project from scratch on Next.js 13 + React.js + TypeScript, Atomic Design methodology for components, Sessions management (Login/Logut) with Cookies, Form validation with React Hook Form, CI/CD with Github actions, configuration of eslint, prettier and pre-commit (husky)."
       },
       {
         "subtitle": "General:",
