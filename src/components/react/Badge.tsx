@@ -16,7 +16,7 @@ type Props = {
 const Badge = ({ color, title, source, size, index, rounded }: Props) => (
   <motion.div
     className="flex flex-col items-center relative w-[7.4rem] md:w-32"
-    variants={fadeIn(Direction.DOWN, 'spring', 0.25, index * 0.1)}
+    variants={fadeIn(Direction.DOWN, 'spring', 0.25, index * 0.05)}
     initial="hidden"
     whileInView="show"
     viewport={{ once: true, amount: 0.25 }}

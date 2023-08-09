@@ -77,7 +77,7 @@ const CertificationCard = ({
 
       <motion.div
         className="certification-card flex items-center rounded-2xl px-2 w-full sm:w-auto"
-        variants={fadeIn(Direction.UP, 'tween', 0.25, index * 0.3)}
+        variants={fadeIn(Direction.UP, 'tween', 0.25, index * 0.1)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}

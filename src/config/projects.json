@@ -1,34 +1,5 @@
 [
   {
-    "title": "Jair's porfolio",
-    "description": "My portfolio shows the culmination of my work and dedication, various skills, licenses and certifications. It also covers some of the projects that highlight my skills, I'm still working on adding more.",
-    "image": "/images/project-portfolio.png",
-    "git": "https://github.com/jhcanonn/portfolio",
-    "web": "https://jaircanon.dev",
-    "hastags": [
-      {
-        "name": "astro",
-        "color": "#FF8C00"
-      },
-      {
-        "name": "react",
-        "color": "#008B8B"
-      },
-      {
-        "name": "githubactions",
-        "color": "#DEB887"
-      },
-      {
-        "name": "tailwind",
-        "color": "#1E90FF"
-      },
-      {
-        "name": "typescript",
-        "color": "#DA70D6"
-      }
-    ]
-  },
-  {
     "title": "DHI platform",
     "description": "Demo web application that allows end users to schedule hair treatment appointments, manage their medical records, and more. Currently developing.",
     "image": "/images/project-dhi.png",
@@ -58,6 +29,14 @@
       {
         "name": "primereact",
         "color": "#DAA520"
+      },
+      {
+        "name": "githubactions",
+        "color": "#DEB887"
+      },
+      {
+        "name": "tailwind",
+        "color": "#1E90FF"
       }
     ]
   }

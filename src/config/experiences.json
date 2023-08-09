@@ -7,11 +7,11 @@
     "descriptions": [
       {
         "subtitle": "Frontend:",
-        "desc": "Starting project from scratch on Next.js 13 + React.js + TypeScript, Atomic Design methodology for components, Sessions management (Login/Logut) with Cookies, Form validation with React Hook Form, CI/CD with Github actions, configuration of eslint, prettier and pre-commit (husky)."
+        "desc": "Starting project from scratch on Next.js 13, Atomic Design methodology for components, Sessions management (Login/Logut) with Cookies, Form validation with React Hook Form, CI/CD with Github actions, configuration of eslint, prettier and pre-commit (husky)."
       },
       {
-        "subtitle": "General:",
-        "desc": "TypeScript, Git versioning, Git actions."
+        "subtitle": "Technologies:",
+        "desc": "Next.js 13, TypeScript, React, Tailwind, Git actions."
       }
     ]
   },
@@ -23,15 +23,15 @@
     "descriptions": [
       {
         "subtitle": "ReactJS (Frontend):",
-        "desc": "Stateful and Stateless components, Presentational and Container components, Hooks implementation (useState,  useEffect,  useRef,  useReducer,  useMemo,  useCallback), Custom hooks implementation, Global state (Redux,  useContext), Component Lifecycle (Mounting,  Updating,  Unmounting), Libraries: React Router,  React DOM,  Axios,  Fetch, Patterns: HoC (Higher Order Components) and Render Props, Atomic Design (atoms > molecules > organisms > templates > pages), Axios Interceptors to intercept requests or responses, Tailwind CSS, Styled components, NextJS framework."
+        "desc": "Integration with Metabase (BI) in order to get charts, creation of home and dashboard professor pages based on Figma design, migration to consume database PostgreSQL managed by Directus (Headless)."
       },
       {
         "subtitle": "NodeJS (Backend):",
-        "desc": "Microservices implementation oriented to AWS Lambda functions (Serverless), Swagger (Serverless openapi documentation), Web Services integration,  REST and GraphQL, Database management,  MongoDB and Postgres, TypeORM to Postgres models (ORM), Mongoose to MongoDB models (ODM), Unit and integration testing, Jest."
+        "desc": "Microservices implementations oriented to AWS Lambda functions (Serverless), make business logic according to educational content, make Stored Procedures to optimize queries, connection to MongoDB and Postgres to data persistence."
       },
       {
-        "subtitle": "General:",
-        "desc": "TypeScript, Git versioning, Git actions, Development methodology, Scrum."
+        "subtitle": "Technologies:",
+        "desc": "Node.js, Express, MongoDB, PostgreSQL, Github actions, Serverless, Swagger, Jest (Unit testing), Git."
       }
     ]
   },
@@ -43,7 +43,11 @@
     "descriptions": [
       {
         "subtitle": "Java Spring:",
-        "desc": "Microservices implementation, Spring Boot,Web Services integration, REST and SOAP,Database management, MySQL and Postgres,Unit testing, JUnit,Stress test, JMeter,Agil methodology, Scrum,Jira management, task tracking,SOLID principles,Design Patterns (Singleton, Builder, Observer, Facade, Proxy, Template),Secure Development Guide, symmetric (AES) and asymmetric (RSA) encryption,OWASP Top 10, vulnerabilities,AWS artifact deployment on ECS, EC2, S3,AWS services: CloudWatch, Lambda, ECR,Docker deployments,Linux server management,AOP programming,Code quality, SonarQube."
+        "desc": "Create and modify microservices to the Davivienda (Bank) application with data encrypted. Main tasks executed in the project: Microservices implementations using containers, Request/Response encrypted."
+      },
+      {
+        "subtitle": "Technologies:",
+        "desc": "SpringBoot, Docker, AWS, JUnit, RestAPI, Git."
       }
     ]
   },
@@ -54,16 +58,16 @@
     "date": "Aug 2019 - May 2021",
     "descriptions": [
       {
-        "subtitle": "Angular (Frontend):",
-        "desc": "Angular 10 management, Structure definition for projects, Route handler, Web Services integration,  REST, Universal interceptor for HTTP requests, Webpack and TSLint integration, Custom design with SASS preprocessor, Browser’s Local and session storage management, Bootstrap,  Material design and PrimeNG UI utilization, BEM CSS methodology, CSS Animations, Modules managements for Lazy loading, Event handling between components and services, Development methodology, Scrum."
-      },
-      {
         "subtitle": "React (Frontend):",
-        "desc": "Stateful and Stateless components, Presentational and Container components, Hooks implementation (useState, useEffect, useRef, useReducer, useMemo, useCallback), Custom hooks implementation, Global state (Redux, useContext), Component Lifecycle (Mounting, Updating, Unmounting), Libraries: React Router, React DOM, Axios, Fetch, Patterns: HoC (Higher Order Components) and Render Props."
+        "desc": "Web application to manage full information about the natural or legal person in CCB (Camara de Comercio de Bogota): User Login/Logout with Cookies (consuming CBB Authentication services), create different pages showing full CCB user information, CRUD operations to manage CCB user information."
       },
       {
         "subtitle": "Java (Backend):",
-        "desc": "Microservices implementation, Spring Boot, Java EE, Web Services integration, REST, Queue management, Database management, Postgres and IBM DB2, Git versioning, Development methodology, Scrum."
+        "desc": "Create and modify CCB (Cámara de Comercio de Bogotá) application services: Microservices implementations, make business logic according to CCB rules, CRUD operations to CCB users with Postgres database."
+      },
+      {
+        "subtitle": "Technologies:",
+        "desc": "React, CSS, HTML, TypeScript, Jest (Unit testing), SpringBoot, JUnit, RestAPI, Git."
       }
     ]
   },
@@ -74,16 +78,16 @@
     "date": "Apr 2019 - Aug 2019",
     "descriptions": [
       {
-        "subtitle": "JavaScript, HTML, CSS (Frontend):",
-        "desc": "REST integrations, Pages creation."
+        "subtitle": "JavaScript (Frontend):",
+        "desc": "Add new features to clinic history, forms creation and validation."
       },
       {
-        "subtitle": "PHP (Backend):",
-        "desc": "Web Services integrations: SOAP and REST, MySQL Database management."
+        "subtitle": "PHP and Java (Backend):",
+        "desc": "Web Services integrations: SOAP and REST, MySQL and Postgres databases management, Jasper report."
       },
       {
-        "subtitle": "Java (Backend):",
-        "desc": "Postgres database management, Jasper report."
+        "subtitle": "Technologies:",
+        "desc": "JavaScript Vanilla, HTML, CSS, Java, PHP, MySQL, SOAP, RestAPI, Git."
       }
     ]
   },
@@ -98,12 +102,12 @@
         "desc": "Angular 7, 8 management, Web Services integration, REST, Custom design with SASS preprocessor, Route handler, Pages creation."
       },
       {
-        "subtitle": "PHP (Backend):",
-        "desc": "Web Services integrations, SOAP and REST, MySQL Database management."
+        "subtitle": "PHP and Java (Backend):",
+        "desc": "Web Services integrations, SOAP and REST, MySQL and Postgres Databases management, Java EE, Jasper report."
       },
       {
-        "subtitle": "Java (Backend):",
-        "desc": "Java EE, MySQL and Postgres database management, Jasper report."
+        "subtitle": "Technologies:",
+        "desc": "JavaScript Vanilla, HTML, CSS, Angular, Java, PHP, MySQL, SOAP, RestAPI, Git."
       }
     ]
   },
@@ -114,12 +118,16 @@
     "date": "Mar 2015 - Nov 2017",
     "descriptions": [
       {
-        "subtitle": "JavaScript, HTML, CSS (Frontend):",
+        "subtitle": "JavaScript (Frontend):",
         "desc": "REST integrations (PayU, MailChimp, Alegra), Pages creation, CSS Animations, Responsive design of Web Pages and Landing Pages, JQuery and Bootstrap utilization."
       },
       {
         "subtitle": "PHP (Backend):",
         "desc": "Web Services integrations, SOAP and REST, MySQL Database management, Linux server management, Git versioning, Scrum agile methodology, CRM based on Vtiger."
+      },
+      {
+        "subtitle": "Technologies:",
+        "desc": "JavaScript Vanilla, CSS, HTML, JQuery, PHP, MySQL, SOAP, RestAPI, Git"
       }
     ]
   },
