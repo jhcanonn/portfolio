@@ -36,9 +36,9 @@ const ProjectCard = ({
       <img
         src={sourceImg}
         alt={title}
-        className="rounded-t-3xl min-h-[11.2rem] bg-black/50 text-white"
+        className="rounded-t-3xl min-h-[13rem] bg-black/50 text-white"
       />
-      <div className="card-banner absolute top-0 w-full bg-black/70 rounded-t-3xl min-h-[11.2rem] invisible scale-0 transition-transform duration-500">
+      <div className="card-banner absolute top-0 w-full bg-black/70 rounded-t-3xl min-h-[13rem] invisible scale-0 transition-transform duration-500">
         {gitUrl && (
           <a href={gitUrl} target="_blank" className="absolute top-4 right-4">
             <img
@@ -67,8 +67,10 @@ const ProjectCard = ({
       <h2 className="font-bold text-2xl">{title}</h2>
       <p className="leading-5 text-sm grow">{description}</p>
       <div className="flex gap-x-2 flex-wrap text-sm">
-        {hastags.map((hashtag) => (
-          <Hashtag color={hashtag.color}>{hashtag.name}</Hashtag>
+        {hastags.map((hashtag, index) => (
+          <Hashtag key={`hashtag-${index}`} color={hashtag.color}>
+            {hashtag.name}
+          </Hashtag>
         ))}
       </div>
     </div>

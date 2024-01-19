@@ -1,29 +1,33 @@
 [
   {
-    "title": "DHI platform",
-    "description": "Demo web application that allows end users to schedule hair treatment appointments, manage their medical records, and more. Currently developing.",
-    "image": "/images/project-dhi.png",
-    "git": "https://github.com/tesuforo/dhi_app",
-    "web": "https://dhi-app.vercel.app/",
+    "title": "Take My Vape - TMV",
+    "description": "Vapes ecommerce, your online destination for vapes shopping.",
+    "image": "/images/project-tmv.png",
+    "git": "https://github.com/alecanonm/tmv_app",
+    "web": "https://tmv-app.vercel.app/",
     "hastags": [
       {
         "name": "nextjs",
-        "color": "#CD853F"
+        "color": "#EA580C"
       },
       {
         "name": "react",
         "color": "#DDA0DD"
       },
       {
+        "name": "directuscms",
+        "color": "#D0B703"
+      },
+      {
         "name": "graphql",
-        "color": "#EE82EE"
+        "color": "#CA8A03"
       },
       {
         "name": "scss",
         "color": "#4682B4"
       },
       {
-        "name": "typescript",
+        "name": "javascript",
         "color": "darkorange"
       },
       {
@@ -32,11 +36,19 @@
       },
       {
         "name": "githubactions",
-        "color": "#DEB887"
+        "color": "#79272D"
       },
       {
         "name": "tailwind",
         "color": "#1E90FF"
+      },
+      {
+        "name": "apolloclient",
+        "color": "#47A832"
+      },
+      {
+        "name": "paypal",
+        "color": "#1E23AC"
       }
     ]
   }
